@@ -10,3 +10,9 @@ primary key(id_cliente)
 
 insert into cliente (nome, sexo, data_nascimento)values ('Jorge de Souza', 'M', '1976-0201');
 select * from cliente;
+
+create table produto(
+id_produto int not null auto_increment,
+nome_produto varchar(50),
+primary key(id_produto)
+);
